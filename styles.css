@@ -1,0 +1,54 @@
+body {
+  background-color: #2C2141;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+}
+.avatar {
+  width: 148px;
+  height: 148px;
+  border-radius: 74px;
+}
+.main {
+  background-color: #F8F8F8;
+  flex-basis: 616px;
+  border-radius: 16px;
+  padding: 32px;
+}
+.h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+.my-position {
+font-size: 18px;
+color: #545454;
+font-style: italic;
+margin: 0;
+}
+.card-content {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.card__discription {
+  line-height: 22px;
+  margin: 0;
+}
+.social__media {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 380px;
+  flex-direction: column;
+  gap: 24px;
+}
