@@ -1,0 +1,15 @@
+{
+  "name": "my-business-card",
+  "version": "1.0.0",
+  "description": "Zrobiłem buisness card w ramach szkolenia.\r ## Technologie\r - Html\r - CSS\r - flexbox",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
