@@ -7,10 +7,24 @@ body {
   justify-content: center;
   max-height: 100vh;
 }
+@keyframes wave {/*this is the name of animation*/
+  0% {/*we can also set it to "from"*/
+    transform: rotate(10deg);
+  }
+ 50% {
+  
+ }
+  100% {/*and here we set it to "to"*/
+    transform: rotate(-10deg);
+  }
+}
 .avatar {
   width: 148px;
   height: 148px;
   border-radius: 74px;
+  display: inline-block;/*in order for animations to take place we need to set the display:inline-block;*/
+  transform-origin: bottom center ;
+  animation: wave 2s infinite alternate ;
 }
 .main {
   background-color: #F8F8F8;

@@ -8,10 +8,26 @@ body {
   display: flex;
 }
 
+@keyframes wave {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  50% {
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
 .avatar {
+  transform-origin: bottom;
   border-radius: 74px;
   width: 148px;
   height: 148px;
+  animation: 2s infinite alternate wave;
+  display: inline-block;
 }
 
 .main {
