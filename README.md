@@ -1,5 +1,5 @@
 # My-business-card
-Zrobiłem buisness card w ramach szkolenia.
+As the name suggests a simple card which contains a short description of the services I provide.
 ## Technologie
 - Html
 - CSS
